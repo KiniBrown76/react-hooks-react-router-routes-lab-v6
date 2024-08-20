@@ -1,16 +1,10 @@
-import NavBar from "../components/NavBar"
+import NavBar from "../components/NavBar";
 
-function ErrorPage() {
-  return (
-    <>
-        <header>
-            <NavBar />
-        </header>
-        <main>
-            <h1>Oops! Looks like something went wrong.</h1>
-        </main>
-    </>
-  )
-}
+const ErrorPage = () => (
+  <div>
+    <NavBar />
+    <h1>Oops! Looks like something went wrong.</h1>
+  </div>
+);
 
-export default ErrorPage
+export default ErrorPage;
